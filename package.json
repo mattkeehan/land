@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=12.18.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node ./test/landtree.js",
     "pretty-quick": "pretty-quick"
   },
   "author": "Matt Keehan",
   "license": "ISC",
-  "bin": "index.js",
+  "bin": {
+    "landtree": "index.js"
+  },
   "devDependencies": {
     "husky": "^5.1.1",
     "prettier": "^2.2.1",
