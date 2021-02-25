@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const companies = require("../data/company-relations.json");
 const landParcels = require("../data/land-ownership.json");
 
